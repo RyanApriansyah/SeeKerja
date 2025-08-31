@@ -1,0 +1,1614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info lowongan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="shortcut icon" href="logoseekerja.png" type="image/x-icon">
+    <link rel="stylesheet" href="info lowongan.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<style>
+    .nav-link:hover {
+        color: rgb(255, 217, 0);
+    }
+</style>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar  navbar-expand-lg navbar-light bg-body-tertiary ">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#"><img style="height: 50px;" src="logoseekerja.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center text-lg-0 ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" aria-current="page" href="core.html">Beranda</a>
+                    </li>
+                    <li class="nav-item  mx-2">
+                        <a class="nav-link" href="core.html #contenTK">Tentang kami</a>
+                    </li>
+                    <li class="nav-item  mx-2">
+                        <a class="nav-link" href="cara mendaftar.html">Cara Mendaftar</a>
+                    </li>
+
+                    <li class="nav-item  mx-2">
+                        <a class="nav-link" href="info lowongan.html">Info Lowongan</a>
+                    </li>
+
+                </ul>
+
+                <div class="nav-item mx-2">
+                    <a href="login.html" class="btn px-4 py-2 mb-lg-0 mb-3 w-100 btn-outline-warning ">Login</a>
+                </div>
+                <div class="nav-item mx-2">
+                    <a href="regist.html" class="btn px-4 py-2 mb-lg-0 mb-3 w-100 btn-outline-warning">Register</a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- navbar -->
+    <!-- carousel -->
+    <div id="carouselExampleControlsNoTouching" class="carousel slide mb-5" data-bs-touch="false"
+        data-bs-interval="false">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="banner1.jpg" class="d-block w-100 " alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="banner2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="banner3.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- carousel -->
+    <!-- contentleft -->
+
+
+    <div class=" container">
+        <div class="row">
+
+            <div class="col-lg-3 mt-5 mt-lg-0 order-lg-1 order-1" data-aos="zoom-in">
+                <div class="py-3 border-bottom ">
+
+                    <p class=" text-center text-lg-start fw-bold">Saring Lowongan
+                        Berdasarkan</p>
+                    <p class="fs-4">Kategori Pekerjaan</p>
+                    <div class="Kategori text-start">
+                        <div class="form-check">
+                            <input maxlength="100" class="form-check-input" type="checkbox">
+                            <label class="form-check-label" for="">Part-Time</label>
+                        </div>
+                        <div class="form-check">
+                            <input max="100" class="form-check-input" type="checkbox">
+                            <label class="form-check-label" for="">Full-Time</label>
+                        </div>
+                        <div class="form-check">
+                            <input max="100" class="form-check-input" type="checkbox">
+                            <label class="form-check-label" for="">Magang</label>
+                        </div>
+                        <div class="form-check ">
+                            <input max="100" class="form-check-input" type="checkbox">
+                            <label class="form-check-label" for="">Event</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="py-3 accordion accordion-flush border-bottom not-   " id="accordionFlushExample">
+                    <div class="act accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                <p class="fw-bold">Kategori Pekerjaan</p>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="form-check">
+                                    <input maxlength="100" class="form-check-input" type="checkbox">
+                                    <label class="form-check-label" for="">Accounting</label>
+                                </div>
+                                <div class="form-check">
+                                    <input maxlength="100" class="form-check-input" type="checkbox">
+                                    <label class="form-check-label" for="">Admin & Operasional</label>
+                                </div>
+                                <div class="form-check">
+                                    <input maxlength="100" class="form-check-input" type="checkbox">
+                                    <label class="form-check-label" for="">Agriculture</label>
+                                </div>
+                                <div class="form-check">
+                                    <input maxlength="100" class="form-check-input" type="checkbox">
+                                    <label class="form-check-label" for="">Audit</label>
+                                </div>
+                                <div class="form-check">
+                                    <input maxlength="100" class="form-check-input" type="checkbox">
+                                    <label class="form-check-label" for="">Beauty & Wellness</label>
+                                </div>
+                                <div class="form-check">
+                                    <input maxlength="100" class="form-check-input" type="checkbox">
+                                    <label class="form-check-label" for="">Konstruksi</label>
+                                </div>
+                                <div class="form-check">
+                                    <input maxlength="100" class="form-check-input" type="checkbox">
+                                    <label class="form-check-label" for="">Customer Service & BPO</label>
+                                </div>
+                                <div class="form-check">
+                                    <input maxlength="100" class="form-check-input" type="checkbox">
+                                    <label class="form-check-label" for="">Kurir & Sopir</label>
+                                </div>
+                                <div class="form-check">
+                                    <input maxlength="100" class="form-check-input" type="checkbox">
+                                    <label class="form-check-label" for="">Design & Creative</label>
+                                </div>
+                                <div class="form-check">
+                                    <input maxlength="100" class="form-check-input" type="checkbox">
+                                    <label class="form-check-label" for="">Pendidikan</label>
+                                </div>
+                                <div class="form-check">
+                                    <input maxlength="100" class="form-check-input" type="checkbox">
+                                    <label class="form-check-label" for="">Engineering</label>
+                                </div>
+                                <div class="form-check">
+                                    <input maxlength="100" class="form-check-input" type="checkbox">
+                                    <label class="form-check-label" for="">Event</label>
+                                </div>
+                                <div class="form-check">
+                                    <input maxlength="100" class="form-check-input" type="checkbox">
+                                    <label class="form-check-label" for="">Kesehatan</label>
+                                </div>
+                                <div class="form-check">
+                                    <input maxlength="100" class="form-check-input" type="checkbox">
+                                    <label class="form-check-label" for="">Marketing</label>
+                                </div>
+                                <div class="form-check">
+                                    <input maxlength="100" class="form-check-input" type="checkbox">
+                                    <label class="form-check-label" for="">Perhotelan</label>
+                                </div>
+                                <div class="form-check">
+                                    <input maxlength="100" class="form-check-input" type="checkbox">
+                                    <label class="form-check-label" for="">Pariwisata</label>
+                                </div>
+                                <div class="form-check">
+                                    <input maxlength="100" class="form-check-input" type="checkbox">
+                                    <label class="form-check-label" for="">Maritime</label>
+                                </div>
+                                <div class="form-check">
+                                    <input maxlength="100" class="form-check-input" type="checkbox">
+                                    <label class="form-check-label" for="">Sports</label>
+                                </div>
+                                <div class="form-check">
+                                    <input maxlength="100" class="form-check-input" type="checkbox">
+                                    <label class="form-check-label" for="">Public Service</label>
+                                </div>
+                                <div class="form-check">
+                                    <input maxlength="100" class="form-check-input" type="checkbox">
+                                    <label class="form-check-label" for="">Teknologi</label>
+                                </div>
+                                <div class="form-check">
+                                    <input maxlength="100" class="form-check-input" type="checkbox">
+                                    <label class="form-check-label" for="">Lainnya</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gaji ">
+                    <p class="fs-4">Gaji</p>
+                </div>
+                <div class="salary d-flex mb-5 mb-lg-0">
+
+                    <div class="input-group">
+                        <input maxlength="100" type="text" class="form-control" placeholder="Min" aria-label="Min" value
+                            id="salaryMin ">
+                    </div>
+                    <span class="input-group-text">-</span>
+                    <div class="input-group">
+
+                        <input maxlength="100" type="text" class="form-control" placeholder="Max" aria-label="Min" value
+                            id="salaryMin ">
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- contentleft -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- content 1 -->
+
+
+            <div class="col-lg-9 mt-lg-0 pe-lg-0 mt-3 order-lg-2 order-2">
+                <div class="card">
+                    <h5 class="card-header d-flex"> <img src="greebel.png" alt="">
+                        <div class="brand ms-3">
+                            <h5 class="text-warning">Admin perkantoran (Intership)</h5>
+                            <p>PT. Suryamas Cipta Sentosa (Greebel)</p>
+                        </div>
+                    </h5>
+                    <div class="card-body">
+                        <div class="row">
+
+                            <div class="col-md-7 order-lg-1 order-1">
+                                <p style="font-size: medium; color: grey;">Diligent, and thorough
+                                    Willing to join as soon as possible
+                                    Have honest and responsible nature
+                                    Can work with team
+                                    Open to SMK/D3/S1 graduates or those still in college
+                                </p>
+
+
+                                <div class="my-4 my-lg-5">
+
+                                    <small class="text-muted text">
+                                        <i class="fa-solid fa-clock text-lg-start"></i>
+                                        Update 5 month ago
+                                        <i class="fa-regular fa-eye ms-2 me-1"></i>403</small>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-5 order-lg-2 order-2 ">
+                                <div class=" user d-flex">
+                                    <i class="fa-solid fa-user"></i>
+                                    <p class="ms-3" style="margin-top: -5px; ">2 <span class="text-warning"
+                                            style="font-weight: 500;">. Full Time . Entry
+                                            Level
+                                    </p>
+                                </div>
+
+                                <div class="location d-flex">
+                                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                                    <p class="ms-3" style="margin-top: -5px; ">Jakarta,
+                                        Daerah
+                                        Khusus Ibukota
+                                        Jakarta, Indonesia
+                                    </p>
+                                </div>
+
+                                <div class="experience d-flex">
+                                    <i class="fa-sharp fa-solid fa-business-time"></i>
+                                    <p class="ms-3" style="margin-top: -5px; ">No
+                                        requirement
+                                        for relevant
+                                        working experience
+                                    </p>
+                                </div>
+
+                                <div class="management d-flex">
+                                    <i class="fa-solid fa-timeline"></i>
+                                    <p class="ms-3" style="margin-top: -5px;">No management
+                                        responsibility
+                                    </p>
+                                </div>
+
+
+                                <!-- Button trigger modal -->
+
+
+                                <div class="linked d-lg-inline-flex d-inline-flex ">
+
+                                    <div class="col-8 ">
+
+                                        <button type="button" class="btn btn-outline-warning  me-lg-0 text-dark"
+                                            data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            More detail
+                                        </button>
+                                    </div>
+                                    <div class="col-4 ">
+
+                                        <button type="button"
+                                            class="btn btn-outline-warning text-light mt-sm-3 mt-lg-0 text-dark"
+                                            data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+                                            Apply
+                                        </button>
+                                    </div>
+
+
+
+
+                                </div>
+
+                                <!-- Button trigger modal -->
+                            </div>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title " id="exampleModalLabel">More
+                                                Detail</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="imageM text-center">
+                                                <img src="greebel.png" alt="">
+                                            </div>
+                                            <div class="brandM text-center mt-3">
+                                                <h5 class="text-warning">Admin perkantoran (Intership)</h5>
+                                                <p>PT. Suryamas Cipta Sentosa (Greebel)</p>
+                                            </div>
+                                            <div class="requirement mt-5">
+                                                <p class="fw-bold">Requirement</p>
+                                                <ul>
+                                                    <li>Diligent, diligent, and thorough
+                                                    </li>
+                                                    <li>
+                                                        Willing to join as soon as possible
+                                                    </li>
+                                                    <li>
+                                                        Have honest and responsible nature
+
+                                                    </li>
+                                                    <li>
+                                                        Can work with team
+                                                    </li>
+                                                    <li>
+                                                        Open to SMK/D3/S1 graduates or those still in college</li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="benefits">
+                                                <p class="fw-bold">Allowances and Benefits</p>
+                                                <div class="food d-flex">
+                                                    <i class="fa-solid fa-burger "></i>
+                                                    <p class="fw-medium ms-3">
+                                                        Free meal</p>
+                                                </div>
+
+                                                <div class="asuransi d-flex">
+                                                    <i class="fa-solid fa-file-circle-check"></i>
+                                                    <p class="fw-medium ms-3">
+                                                        Get health insurance</p>
+                                                </div>
+
+                                                <div class="food d-flex">
+                                                    <i class="fa-solid fa-car-side"></i>
+                                                    <p class="fw-medium ms-3">
+                                                        Free transportation</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a class="btn btn-secondary" href="">Close</a>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <!-- Modal -->
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" style="color: #37306B;" id="staticBackdropLabel">
+                                                Apply</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="lamar text-center ">
+                                                <h5>You apply to <span class="fw-bold"
+                                                        style="color: red;">Greebel</span> as an <span
+                                                        class="fw-bold text-warning">
+                                                        Office Admin
+                                                    </span>
+                                                </h5>
+                                            </div>
+                                            <div class="uploadCV mt-5 ">
+                                                <div class="resume d-flex">
+
+                                                    <i class="fa-solid fa-file me-2"></i>
+                                                    <p style="margin-top: -4px; font-weight: bold; font-size: 17px; ">
+                                                        Resume</p>
+                                                </div>
+                                                <input type="file" id="file">
+                                                <label for="file"
+                                                    style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                                    <i class="fa-solid fa-file-arrow-up text-muted"></i>
+                                                    Upload your CV
+                                                </label>
+                                                <p class="text-muted mb-3">Upload your file maks 5mb</p>
+                                            </div>
+                                            <div class="inputNO">
+                                                <input type="text" class="form-input" name="name" id="name"
+                                                    placeholder="Enter your phone number!"
+                                                    autocomplete="additional-name" />
+                                                <p class="text-muted">Please use a valid telephone number!</p>
+                                            </div>
+
+
+
+                                            <button id="btn1"
+                                                class="btn btn-outline-warning w-100 text-dark fw-bold mt-3"
+                                                style=" height: 70px;">Apply</button>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- content1 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- card content 2 -->
+                <div class="card mt-5">
+                    <h5 class="card-header d-flex"> <img src="shoppe.jpg" alt="">
+                        <div class="brand ms-3">
+                            <h5 class="text-warning">Frontend Developer</h5>
+                            <p>PT. Shopee International Indonesia (Shopee)</p>
+                        </div>
+                    </h5>
+                    <div class="card-body">
+                        <div class="row">
+
+                            <div class="col-md-7 order-lg-1 order-1">
+                                <p style="font-size: medium; color: grey;">Cekatan, rajin, dan teliti
+                                    Bersedia bergabung secepatnya
+                                    Memiliki sifat yang jujur dan bertanggung jawab
+                                    Dapat bekerjasama dengan tim
+                                    Terbuka untuk lulusan SMK/D3/S1 atau yang masih menempuh pendidikan
+                                    SMK/D3/S1</p>
+
+
+                                <div class="my-4 my-lg-5">
+
+                                    <small class="text-muted text">
+                                        <i class="fa-solid fa-clock text-lg-start"></i>
+                                        Update 3 month ago
+                                        <i class="fa-regular fa-eye ms-2 me-1"></i>243</small>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-5 order-lg-2 order-2 ">
+                                <div class=" user d-flex">
+                                    <i class="fa-solid fa-user"></i>
+                                    <p class="ms-3" style="margin-top: -5px; ">4 <span class="text-warning"
+                                            style=" font-weight: 500;">. Part time . Mid-Senior level
+                                    </p>
+                                </div>
+
+                                <div class="location d-flex">
+                                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                                    <p class="ms-3" style="margin-top: -5px; ">Jakarta Utara,
+                                        Daerah
+                                        Khusus Ibukota
+                                        Jakarta , Indonesia
+                                    </p>
+                                </div>
+
+                                <div class="experience d-flex">
+                                    <i class="fa-sharp fa-solid fa-business-time"></i>
+                                    <p class="ms-3" style="margin-top: -5px; ">
+                                        2 years of experience required
+                                    </p>
+                                </div>
+
+                                <div class="management d-flex">
+                                    <i class="fa-solid fa-timeline"></i>
+                                    <p class="ms-3" style="margin-top: -5px;">No management
+                                        responsibility
+                                    </p>
+                                </div>
+
+
+                                <!-- Button trigger modal -->
+
+
+                                <div class="linked  d-lg-inline-flex d-inline-flex   ">
+
+                                    <div class="col-8 ">
+
+                                        <button type="button" class="btn btn-outline-warning me-lg-0 text-dark"
+                                            data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                                            More detail
+                                        </button>
+                                    </div>
+                                    <div class="col-4  ">
+
+                                        <button type="button" class="btn btn-outline-warning text-dark mt-sm-3 mt-lg-0"
+                                            data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+                                            Apply
+                                        </button>
+                                    </div>
+
+
+
+
+                                </div>
+
+                                <!-- Button trigger modal -->
+                            </div>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">More
+                                                Detail</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="imageM text-center">
+                                                <img src="shoppe.jpg" alt="">
+                                            </div>
+                                            <div class="brandM text-center mt-3">
+                                                <h5 class="text-warning">Frontend Developer</h5>
+                                                <p>PT Shopee International Indonesia (Shopee)</p>
+                                            </div>
+                                            <div class="requirement mt-5">
+                                                <p class="fw-bold">Requirement</p>
+                                                <ul>
+                                                    <li>Cekatan, rajin, dan teliti
+                                                    </li>
+                                                    <li>
+                                                        Bersedia bergabung secepatnya
+                                                    </li>
+                                                    <li>
+                                                        Memiliki sifat yang jujur dan bertanggung jawab
+
+                                                    </li>
+                                                    <li>
+                                                        Dapat bekerjasama dengan tim
+                                                    </li>
+                                                    <li>
+                                                        Terbuka untuk lulusan SMK/D3/S1 atau yang masih menempuh
+                                                        pendidikan
+                                                        SMK/D3/S1</li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="benefits">
+                                                <p class="fw-bold">Allowances and Benefits</p>
+                                                <div class="food d-flex">
+                                                    <i class="fa-solid fa-burger "></i>
+                                                    <p class="fw-medium ms-3">
+                                                        Free meal</p>
+                                                </div>
+
+                                                <div class="asuransi d-flex">
+                                                    <i class="fa-solid fa-file-circle-check"></i>
+                                                    <p class="fw-medium ms-3">
+                                                        Get health insurance</p>
+                                                </div>
+
+                                                <div class="food d-flex">
+                                                    <i class="fa-solid fa-car-side"></i>
+                                                    <p class="fw-medium ms-3">
+                                                        Free transportation</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a class="btn btn-secondary" href="">close</a>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <!-- Modal -->
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title " id="staticBackdropLabel">
+                                                Apply</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="lamar text-center ">
+                                                <h5>You apply to <span class="fw-bold"
+                                                        style="color: orange;">Shoppe</span> as an <span
+                                                        class="fw-bold">
+                                                        Office Admin
+                                                    </span>
+                                                </h5>
+                                            </div>
+                                            <div class="uploadCV mt-5 ">
+                                                <div class="resume d-flex">
+
+                                                    <i class="fa-solid fa-file me-2"></i>
+                                                    <p style="margin-top: -4px; font-weight: bold; font-size: 17px; ">
+                                                        Resume</p>
+                                                </div>
+                                                <input type="file" id="file">
+                                                <label for="file"
+                                                    style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                                    <i class="fa-solid fa-file-arrow-up text-muted"></i>
+                                                    Upload your CV
+                                                </label>
+                                                <p class="text-muted mb-3">Upload your file maks 5mb</p>
+                                            </div>
+                                            <div class="inputNO">
+                                                <input type="text" class="form-input" name="name" id="name"
+                                                    placeholder="Enter your phone number!" />
+                                                <p class="text-muted">Please use a valid telephone number!</p>
+                                            </div>
+
+
+
+                                            <button id="btn2"
+                                                class="btn btn-outline-warning w-100 text-dark fw-bold mt-3"
+                                                style=" height: 70px;">Apply</button>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- card content 2 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- cardcontent3 -->
+
+                <div class="card mt-5">
+                    <h5 class="card-header d-flex"> <img src="dana.png" alt="">
+                        <div class="brand ms-3">
+                            <h5 class="text-warning">UI/UX Designer</h5>
+                            <p>PT. Espay Debit Indonesia Koe (Dana)</p>
+                        </div>
+                    </h5>
+                    <div class="card-body">
+                        <div class="row">
+
+                            <div class="col-md-7 order-lg-1 order-1">
+                                <p style="font-size: medium; color: grey;">Cekatan, rajin, dan teliti
+                                    Bersedia bergabung secepatnya
+                                    Memiliki sifat yang jujur dan bertanggung jawab
+                                    Dapat bekerjasama dengan tim
+                                    Terbuka untuk lulusan SMK/D3/S1 atau yang masih menempuh pendidikan
+                                    SMK/D3/S1</p>
+
+
+                                <div class="my-4 my-lg-5">
+
+                                    <small class="text-muted text">
+                                        <i class="fa-solid fa-clock text-lg-start"></i>
+                                        Update 4 month ago
+                                        <i class="fa-regular fa-eye ms-2 me-1"></i>277</small>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-5 order-lg-2 order-2 ">
+                                <div class=" user d-flex">
+                                    <i class="fa-solid fa-user"></i>
+                                    <p class="ms-3" style="margin-top: -5px; ">6 <span class="text-warning"
+                                            style=" font-weight: 500;">. Freelance . Mid-Senior level
+                                    </p>
+                                </div>
+
+                                <div class="location d-flex">
+                                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                                    <p class="ms-3" style="margin-top: -5px; ">Jakarta Selatan,
+                                        Daerah
+                                        Khusus Ibukota
+                                        Jakarta , Indonesia
+                                    </p>
+                                </div>
+
+                                <div class="gaji d-flex">
+                                    <i class="fa-solid fa-dollar-sign"></i>
+                                    <p class=" ms-3" style="margin-top: -5px; "> 3M - 5M IDR / Month
+                                    </p>
+                                </div>
+
+                                <div class="experience d-flex">
+                                    <i class="fa-sharp fa-solid fa-business-time"></i>
+                                    <p class="ms-3" style="margin-top: -5px; ">
+                                        2 years of experience required
+                                    </p>
+                                </div>
+
+                                <div class="management d-flex">
+                                    <i class="fa-solid fa-timeline"></i>
+                                    <p class="ms-3" style="margin-top: -5px;">Managing 3-5 staff
+                                    </p>
+                                </div>
+
+
+                                <!-- Button trigger modal -->
+
+
+
+                                <div class="linked  d-lg-inline-flex d-inline-flex   ">
+
+                                    <div class="col-8 ">
+
+                                        <button type="button" class="btn btn-outline-warning me-lg-0 text-dark"
+                                            data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                            More detail
+                                        </button>
+                                    </div>
+                                    <div class="col-4  ">
+
+                                        <button type="button" class="btn btn-outline-warning text-dark mt-sm-3 mt-lg-0"
+                                            data-bs-toggle="modal" data-bs-target="#staticBackdrop4">
+                                            Apply
+                                        </button>
+                                    </div>
+
+
+
+
+                                </div>
+
+                                <!-- Button trigger modal -->
+                            </div>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">More
+                                                Detail</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="imageM text-center">
+                                                <img src="dana.png" alt="">
+                                            </div>
+                                            <div class="brandM text-center mt-3">
+                                                <h5 class="text-warning">UI/UX Designer</h5>
+                                                <p>PT. Espay Debit Indonesia Koe (Dana)</h5>
+                                            </div>
+                                            <div class="requirement mt-5">
+                                                <p class="fw-bold">Requirement</p>
+                                                <ul>
+                                                    <li>Cekatan, rajin, dan teliti
+                                                    </li>
+                                                    <li>
+                                                        Bersedia bergabung secepatnya
+                                                    </li>
+                                                    <li>
+                                                        Memiliki sifat yang jujur dan bertanggung jawab
+
+                                                    </li>
+                                                    <li>
+                                                        Dapat bekerjasama dengan tim
+                                                    </li>
+                                                    <li>
+                                                        Terbuka untuk lulusan SMK/D3/S1 atau yang masih menempuh
+                                                        pendidikan
+                                                        SMK/D3/S1</li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="benefits">
+                                                <p class="fw-bold">Allowances and Benefits</p>
+                                                <div class="food d-flex">
+                                                    <i class="fa-solid fa-burger "></i>
+                                                    <p class="fw-medium ms-3">
+                                                        Free meal</p>
+                                                </div>
+
+                                                <div class="asuransi d-flex">
+                                                    <i class="fa-solid fa-file-circle-check"></i>
+                                                    <p class="fw-medium ms-3">
+                                                        Get health insurance</p>
+                                                </div>
+
+                                                <div class="food d-flex">
+                                                    <i class="fa-solid fa-car-side"></i>
+                                                    <p class="fw-medium ms-3">
+                                                        Free transportation</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a class="btn btn-secondary" href="">close</a>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <!-- Modal -->
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title text-warning" id="staticBackdropLabel">
+                                                Apply</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="lamar text-center ">
+                                                <h5>You apply to <span class="fw-bold"
+                                                        style="color: rgb(41, 129, 253);">Dana</span> as an <span
+                                                        class="fw-bold">
+                                                        UI/UX Designer
+
+                                                    </span>
+                                                </h5>
+                                            </div>
+                                            <div class="uploadCV mt-5 ">
+                                                <div class="resume d-flex">
+
+                                                    <i class="fa-solid fa-file me-2"></i>
+                                                    <p style="margin-top: -4px; font-weight: bold; font-size: 17px;">
+                                                        Resume</p>
+                                                </div>
+                                                <input type="file" id="file">
+                                                <label for="file"
+                                                    style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                                    <i class="fa-solid fa-file-arrow-up text-muted"></i>
+                                                    Upload your CV
+                                                </label>
+                                                <p class="text-muted mb-3">Upload your file maks 5mb</p>
+                                            </div>
+                                            <div class="inputNO">
+                                                <input type="text" class="form-input" name="name" id="name"
+                                                    placeholder="Enter your phone number!" />
+                                                <p class="text-muted">Please use a valid telephone number!</p>
+                                            </div>
+
+
+
+                                            <button id="btn3"
+                                                class="btn btn-outline-warning w-100 text-dark fw-bold mt-3"
+                                                style=" height: 70px;">Apply</button>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- cardcontent3 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- card content 4 -->
+
+
+
+                <div class="card mt-5">
+                    <h5 class="card-header d-flex"> <img src="tiktok.jpg" alt="">
+                        <div class="brand ms-3">
+                            <h5 class="text-warning">Backend Developer</h5>
+                            <p>PT. Bytedance Technology(Tiktok)</p>
+                        </div>
+                    </h5>
+                    <div class="card-body">
+                        <div class="row">
+
+                            <div class="col-md-7 order-lg-1 order-1">
+                                <p style="font-size: medium; color: grey;">Cekatan, rajin, dan teliti
+                                    Bersedia bergabung secepatnya
+                                    Memiliki sifat yang jujur dan bertanggung jawab
+                                    Dapat bekerjasama dengan tim
+                                    Terbuka untuk lulusan SMK/D3/S1 atau yang masih menempuh pendidikan
+                                    SMK/D3/S1</p>
+
+
+                                <div class="my-4 my-lg-5">
+
+                                    <small class="text-muted text">
+                                        <i class="fa-solid fa-clock text-lg-start"></i>
+                                        Update 7 month ago
+                                        <i class="fa-regular fa-eye ms-2 me-1"></i>677</small>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-5 order-lg-2 order-2 ">
+                                <div class=" user d-flex">
+                                    <i class="fa-solid fa-user"></i>
+                                    <p class="ms-3" style="margin-top: -5px; ">10 <span class="text-warning"
+                                            style=" font-weight: 500;">. Full time . Mid-Senior level
+                                    </p>
+                                </div>
+
+                                <div class="location d-flex">
+                                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                                    <p class="ms-3" style="margin-top: -5px; ">Jakarta Pusat,
+                                        Daerah
+                                        Khusus Ibukota
+                                        Jakarta , Indonesia
+                                    </p>
+                                </div>
+
+                                <div class="gaji d-flex">
+                                    <i class="fa-solid fa-dollar-sign"></i>
+                                    <p class=" ms-3" style="margin-top: -5px; "> 10M - 15M IDR / Month
+                                    </p>
+                                </div>
+
+                                <div class="experience d-flex">
+                                    <i class="fa-sharp fa-solid fa-business-time"></i>
+                                    <p class="ms-3" style="margin-top: -5px; ">
+                                        3 years of experience required
+                                    </p>
+                                </div>
+
+                                <div class="management d-flex">
+                                    <i class="fa-solid fa-timeline"></i>
+                                    <p class="ms-3" style="margin-top: -5px;">Managing 6-12 staff
+                                    </p>
+                                </div>
+
+
+                                <!-- Button trigger modal -->
+
+
+                                <div class="linked d-lg-inline-flex d-inline-flex ">
+
+                                    <div class="col-8 ">
+
+                                        <button type="button" class="btn btn-outline-warning me-lg-0 text-dark"
+                                            data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                                            More detail
+                                        </button>
+                                    </div>
+                                    <div class="col-4">
+
+                                        <button type="button" class="btn btn-outline-warning text-dark mt-sm-3 mt-lg-0"
+                                            data-bs-toggle="modal" data-bs-target="#staticBackdrop5">
+                                            Apply
+                                        </button>
+                                    </div>
+
+
+
+
+                                </div>
+
+                                <!-- Button trigger modal -->
+                            </div>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">More
+                                                Detail</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="imageM text-center">
+                                                <img src="tiktok.jpg" alt="">
+                                            </div>
+                                            <div class="brandM text-center mt-3">
+                                                <h5 class="text-warning">Backend Developer</h5>
+                                                <p>PT. Bytedance Technology (Tiktok)</h5>
+                                            </div>
+                                            <div class="requirement mt-5">
+                                                <p class="fw-bold">Requirement</p>
+                                                <ul>
+                                                    <li>Cekatan, rajin, dan teliti
+                                                    </li>
+                                                    <li>
+                                                        Bersedia bergabung secepatnya
+                                                    </li>
+                                                    <li>
+                                                        Memiliki sifat yang jujur dan bertanggung jawab
+
+                                                    </li>
+                                                    <li>
+                                                        Dapat bekerjasama dengan tim
+                                                    </li>
+                                                    <li>
+                                                        Terbuka untuk lulusan SMK/D3/S1 atau yang masih menempuh
+                                                        pendidikan
+                                                        SMK/D3/S1</li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="benefits">
+                                                <p class="fw-bold">Allowances and Benefits</p>
+                                                <div class="food d-flex">
+                                                    <i class="fa-solid fa-burger "></i>
+                                                    <p class="fw-medium ms-3">
+                                                        Free meal</p>
+                                                </div>
+
+                                                <div class="asuransi d-flex">
+                                                    <i class="fa-solid fa-file-circle-check"></i>
+                                                    <p class="fw-medium ms-3">
+                                                        Get health insurance</p>
+                                                </div>
+
+                                                <div class="food d-flex">
+                                                    <i class="fa-solid fa-car-side"></i>
+                                                    <p class="fw-medium ms-3">
+                                                        Free transportation</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a class="btn btn-secondary" href="">close</a>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <!-- Modal -->
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop5" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title text-warning" id="staticBackdropLabel">
+                                                Apply</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="lamar text-center ">
+                                                <h5>You apply to <span class="fw-bold"
+                                                        style="color: rgb(253, 41, 196);">Tik tok</span> as an <span
+                                                        class="fw-bold">
+                                                        Backend Developer
+
+                                                    </span>
+                                                </h5>
+                                            </div>
+                                            <div class="uploadCV mt-5 ">
+                                                <div class="resume d-flex">
+
+                                                    <i class="fa-solid fa-file me-2"></i>
+                                                    <p style="margin-top: -4px; font-weight: bold; font-size: 17px;">
+                                                        Resume</p>
+                                                </div>
+                                                <input type="file" id="file">
+                                                <label for="file"
+                                                    style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                                    <i class="fa-solid fa-file-arrow-up text-muted"></i>
+                                                    Upload your CV
+                                                </label>
+                                                <p class="text-muted mb-3">Upload your file maks 5mb</p>
+                                            </div>
+                                            <div class="inputNO">
+                                                <input type="text" class="form-input" name="name" id="name"
+                                                    placeholder="Enter your phone number!" />
+                                                <p class="text-muted">Please use a valid telephone number!</p>
+                                            </div>
+
+
+
+                                            <button id="btn4"
+                                                class="btn btn-outline-warning w-100 text-dark fw-bold mt-3"
+                                                style=" height: 70px;">Apply</button>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- card content 4 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- card content 5 -->
+                <div class="card mt-5">
+                    <h5 class="card-header d-flex"> <img src="ruangguru.jpg" alt="">
+                        <div class="brand ms-3">
+                            <h5 class="text-warning">Sales Executive</h5>
+                            <p>PT. Ruang Raya Indonesia(Ruang Guru)</p>
+                        </div>
+                    </h5>
+                    <div class="card-body">
+                        <div class="row">
+
+                            <div class="col-md-7 order-lg-1 order-1">
+                                <p style="font-size: medium; color: grey;">Establish, develop and maintain business
+                                    relationships with prospective customers to generate new business.
+                                    Provide the partners with enjoyable after-sales service.
+                                    Keep maintaining a good relationship with the partners even after the closing.
+                                </p>
+
+
+                                <div class="my-4 my-lg-5">
+
+                                    <small class="text-muted text">
+                                        <i class="fa-solid fa-clock text-lg-start"></i>
+                                        Update 10 month ago
+                                        <i class="fa-regular fa-eye ms-2 me-1"></i>288</small>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-5 order-lg-2 order-2 ">
+                                <div class=" user d-flex">
+                                    <i class="fa-solid fa-user"></i>
+                                    <p class="ms-3" style="margin-top: -5px; ">8 <span class="text-warning"
+                                            style=" font-weight: 500;">. Full time . Entry Level
+                                    </p>
+                                </div>
+
+                                <div class="location d-flex">
+                                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                                    <p class="ms-3" style="margin-top: -5px; ">Bandung, Indonesia
+                                    </p>
+                                </div>
+
+                                <div class="gaji d-flex">
+                                    <i class="fa-solid fa-dollar-sign"></i>
+                                    <p class=" ms-3" style="margin-top: -5px; "> 4.5M - 7M IDR / Month
+                                    </p>
+                                </div>
+
+                                <div class="experience d-flex">
+                                    <i class="fa-sharp fa-solid fa-business-time"></i>
+                                    <p class="ms-3" style="margin-top: -5px; ">
+                                        5 years of experience required
+                                    </p>
+                                </div>
+
+                                <div class="management d-flex">
+                                    <i class="fa-solid fa-timeline"></i>
+                                    <p class="ms-3" style="margin-top: -5px;">No management responsibility
+                                    </p>
+                                </div>
+
+
+                                <!-- Button trigger modal -->
+
+
+                                <div class="linked  d-lg-inline-flex d-inline-flex ">
+
+                                    <div class="col-8 ">
+
+                                        <button type="button" class="btn btn-outline-warning me-lg-0 text-dark"
+                                            data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                            More detail
+                                        </button>
+                                    </div>
+                                    <div class="col-4">
+
+                                        <button type="button" class="btn btn-outline-warning text-dark mt-lg-0"
+                                            data-bs-toggle="modal" data-bs-target="#staticBackdrop6">
+                                            Apply
+                                        </button>
+                                    </div>
+
+
+
+
+                                </div>
+
+                                <!-- Button trigger modal -->
+                            </div>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">More
+                                                Detail</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="imageM text-center">
+                                                <img src="ruangguru.jpg" alt="">
+                                            </div>
+                                            <div class="brandM text-center mt-3">
+                                                <h5 class="text-warning">Sales Executive</h5>
+                                                <p>PT. Ruang Raya Indonesia (Ruang Guru)</h5>
+                                            </div>
+                                            <div class="requirement mt-5">
+                                                <p class="fw-bold">Requirement</p>
+                                                <ul>
+                                                    <li>Establish, develop and maintain business
+                                                        relationships with prospective customers to generate new
+                                                        business.
+                                                    </li>
+                                                    <li>
+                                                        Provide the partners with enjoyable after-sales service.
+                                                    </li>
+                                                    <li>
+                                                        Keep maintaining a good relationship with the partners even
+                                                        after the closing.
+
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+
+                                            <div class="benefits">
+                                                <p class="fw-bold">Allowances and Benefits</p>
+                                                <div class="food d-flex">
+                                                    <i class="fa-solid fa-burger "></i>
+                                                    <p class="fw-medium ms-3">
+                                                        Free meal</p>
+                                                </div>
+
+                                                <div class="asuransi d-flex">
+                                                    <i class="fa-solid fa-file-circle-check"></i>
+                                                    <p class="fw-medium ms-3">
+                                                        Get health insurance</p>
+                                                </div>
+
+                                                <div class="food d-flex">
+                                                    <i class="fa-solid fa-car-side"></i>
+                                                    <p class="fw-medium ms-3">
+                                                        Free transportation</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a class="btn btn-secondary" href="">close</a>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <!-- Modal -->
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop6" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title text-warning" id="staticBackdropLabel">
+                                                Apply</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="lamar text-center ">
+                                                <h5>You apply to <span class="fw-bold"
+                                                        style="color: rgb(78, 223, 255);">Ruang Guru</span> as an <span
+                                                        class="fw-bold">
+                                                        Sales Executive
+
+                                                    </span>
+                                                </h5>
+                                            </div>
+                                            <div class="uploadCV mt-5 ">
+                                                <div class="resume d-flex">
+
+                                                    <i class="fa-solid fa-file me-2"></i>
+                                                    <p style="margin-top: -4px; font-weight: bold; font-size: 17px;">
+                                                        Resume</p>
+                                                </div>
+                                                <input type="file" id="file">
+                                                <label for="file"
+                                                    style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                                    <i class="fa-solid fa-file-arrow-up text-muted"></i>
+                                                    Upload your CV
+                                                </label>
+                                                <p class="text-muted mb-3">Upload your file maks 5mb</p>
+                                            </div>
+                                            <div class="inputNO">
+                                                <input type="text" class="form-input" name="name" id="name"
+                                                    placeholder="Enter your phone number!" />
+                                                <p class="text-muted">Please use a valid telephone number!</p>
+                                            </div>
+
+
+
+                                            <button id="btn5"
+                                                class="btn btn-outline-warning w-100 text-dark fw-bold mt-3"
+                                                style=" height: 70px;">Apply</button>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- close card content 5 -->
+
+
+
+            </div>
+
+        </div>
+    </div>
+    <div class="pagination justify-content-center mt-5">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">~</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="eroryet.html">2</a></li>
+                <li class="page-item"><a class="page-link" href="eroryet.html">3</a></li>
+                <li class="page-item"><a class="page-link" href="eroryet.html">4</a></li>
+                <li class="page-item"><a class="page-link" href="eroryet.html">5</a></li>
+                <li class="page-item"><a class="page-link" href="eroryet.html">6</a></li>
+                <li class="page-item"><a class="page-link" href="eroryet.html">7</a></li>
+                <li class="page-item"><a class="page-link" href="eroryet.html">8</a></li>
+                <li class="page-item"><a class="page-link" href="eroryet.html">9</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="eroryet.html">></a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+
+
+    <footer class="bd-footer py-4 py-md-5 mt-5 bg-body-tertiary">
+        <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
+            <div class="row">
+                <div class="col-lg-3 mb-3">
+                    <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none" href=""
+                        aria-label="Bootstrap">
+                        <span class="fs-5">SeeKerja</span>
+                    </a>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2">
+                            SeeKerja adalah web untuk anda mencari lowongan kerja di berbagai bidang.
+                        </li>
+
+                    </ul>
+                </div>
+
+
+                <div class="col-6 col-lg-3 mb-3">
+                    <h5>Dukungan</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            Info lowongan
+                        </li>
+                        <li class="mb-2">
+                            Cara mendaftar
+                        </li>
+                        <li class="mb-2">
+                            Lainnya
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-3 mb-3">
+                    <h5>Tentang Kami</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            Kategori pekerjaan
+                        </li>
+                        <li class="mb-2">
+                            Gaji
+                        </li>
+                        <li class="mb-2">
+                            Pendaftaran
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-3 mb-3">
+                    <h5>Kontak</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            Phone : <br> 0856-2344-1535
+                        </li>
+                        <li class="mb-2">
+                            Email : seekerja@gmail.com
+                        </li>
+                    </ul>
+
+                </div>
+                <hr>©2023 SeeKerja. All rights reserved.
+            </div>
+        </div>
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/f248171b51.js" crossorigin="anonymous"></script>
+        <script src="dist/sweetalert2.all.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script>
+            document.getElementById('btn1').addEventListener("click", function () {
+                Swal.fire(
+                    'Congratulations!',
+                    'You have successfully applied to the Greebel company',
+                    'success'
+                )
+            });
+
+            document.getElementById('btn2').addEventListener('click', function () {
+                Swal.fire(
+                    'Congratulations!',
+                    'You have successfully applied to the Shoppe company',
+                    'success'
+                )
+            })
+            document.getElementById('btn3').addEventListener("click", function () {
+                Swal.fire(
+                    'Congratulations!',
+                    'You have successfully applied to the Dana company',
+                    'success'
+                )
+            });
+
+            document.getElementById('btn4').addEventListener('click', function () {
+                Swal.fire(
+                    'Congratulations!',
+                    'You have successfully applied to the TikTok company',
+                    'success'
+                )
+            })
+            document.getElementById('btn5').addEventListener("click", function () {
+                Swal.fire(
+                    'Congratulations!',
+                    'You have successfully applied to the Ruang Guru company',
+                    'success'
+                )
+            });
+
+        </script>
+</body>
+
+</html>
